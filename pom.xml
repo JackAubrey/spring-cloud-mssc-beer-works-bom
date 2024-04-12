@@ -13,7 +13,7 @@
 
     <groupId>com.github.sfg-beer-works</groupId>
     <artifactId>sfg-beer-works-bom</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -54,6 +54,7 @@
         <docker.image.prefix>dcividin</docker.image.prefix>
         <!-- set to name of project -->
         <docker.image.name>${project.artifactId}</docker.image.name>
+        <project.repo-name>spring-cloud-mssc-beer-works-bom</project.repo-name>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -292,11 +293,18 @@
             </plugin>
         </plugins>
     </build>
+    <url>https://github.com/JackAubrey/${project.repo-name}</url>
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub JackAubrey Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/JackAubrey/spring-cloud-mssc-beer-works-bom</url>
+            <url>https://maven.pkg.github.com/JackAubrey/${project.repo-name}</url>
         </repository>
     </distributionManagement>
+    <scm>
+        <connection>scm:git:git@github.com:JackAubrey/${project.repo-name}.git</connection>
+        <developerConnection>scm:git:git@github.com:JackAubrey/${project.repo-name}.git</developerConnection>
+        <url>https://github.com/JackAubrey/${project.repo-name}</url>
+        <tag>HEAD</tag>
+    </scm>
 </project>

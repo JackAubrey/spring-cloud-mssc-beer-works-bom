@@ -13,7 +13,7 @@
 
     <groupId>com.github.sfg-beer-works</groupId>
     <artifactId>sfg-beer-works-bom</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
 
     <packaging>pom</packaging>
 
@@ -296,7 +296,7 @@
         <repository>
             <id>github</id>
             <name>GitHub JackAubrey Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/JackAubrey/spring-cloud-mssc-beer-works-bom</url>
+            <url>https://maven.pkg.github.com/JackAubrey/${project.artifactId}</url>
         </repository>
     </distributionManagement>
 </project>

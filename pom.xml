@@ -11,7 +11,7 @@
 
     <groupId>com.github.sfg-beer-works</groupId>
     <artifactId>sfg-beer-works-bom</artifactId>
-    <version>1.0.10-SNAPSHOT</version>
+    <version>1.0.9-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -177,7 +177,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>3.0.1</version>
                 <configuration>
-                    <tagNameFormat>${project.artifactId}/${project.version}</tagNameFormat>
+                    <tagNameFormat>@{artifactId}/@{version}</tagNameFormat>
                 </configuration>
             </plugin>
 

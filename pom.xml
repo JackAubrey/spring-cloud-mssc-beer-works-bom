@@ -11,7 +11,7 @@
 
     <groupId>com.github.sfg-beer-works</groupId>
     <artifactId>sfg-beer-works-bom</artifactId>
-    <version>1.0.11-SNAPSHOT</version>
+    <version>1.0.10-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -305,7 +305,7 @@
         <repository>
             <id>github</id>
             <name>GitHub JackAubrey Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/JackAubrey/mvn-repo</url>
+            <url>https://maven.pkg.github.com/JackAubrey/${project.repo-name}</url>
         </repository>
     </distributionManagement>
     <scm>

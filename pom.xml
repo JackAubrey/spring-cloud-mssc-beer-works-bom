@@ -178,6 +178,7 @@
                 <version>3.0.1</version>
                 <configuration>
                     <tagNameFormat>@{version}</tagNameFormat>
+                    <tagBase>https://github.com/JackAubrey/${project.repo-name}/releases</tagBase>
                 </configuration>
             </plugin>
 
